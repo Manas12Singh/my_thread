@@ -19,6 +19,6 @@ int main() {
 	if (pthread_create(&t2,NULL,&routine,NULL)!=0)
 		return 2;
 	pthread_join(t1,NULL);
-	pthread_join(t2,NUL);
+	pthread_join(t2,NULL);
 	return 0;
 }
